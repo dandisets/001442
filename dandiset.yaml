@@ -14,16 +14,17 @@ assetsSummary:
     name: Brain Imaging Data Structure (BIDS)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 12465479
+  numberOfBytes: 12465443
   numberOfFiles: 57
   numberOfSamples: 10
   numberOfSubjects: 8
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Saliani, Ariane; Duval, Tanguy; Zaimi, Aldo; Bourget, Marie-Hélène; Collin,
-  Armand; Cohen-Adad, Julien (2025) SEM Images of Rat Spinal Cord with Axon and Myelin
-  Segmentations (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001442/draft
+citation: Saliani, Ariane; Duval, Tanguy; Nami, Harris; Husein, Nafisa; Collin, Armand;
+  Zaimi, Aldo; Bourget, Marie-Hélène; Foias, Alexandru; Boudreau, Mathieu; Cohen-Adad,
+  Julien (2025) SEM Images of Rat Spinal Cord with Axon and Myelin Segmentations (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001442/draft
 contributor:
 - identifier: 0000-0002-5369-3264
   includeInCitation: true
@@ -40,6 +41,28 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 - includeInCitation: true
+  name: Nami, Harris
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  schemaKey: Person
+- includeInCitation: true
+  name: Husein, Nafisa
+  roleName:
+  - dcite:DataCurator
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  email: armand.collin@polymtl.ca
+  identifier: 0009-0005-3258-122X
+  includeInCitation: true
+  name: Collin, Armand
+  roleName:
+  - dcite:DataCurator
+  - dcite:Author
+  - dcite:Maintainer
+  schemaKey: Person
+- includeInCitation: true
   name: Zaimi, Aldo
   roleName:
   - dcite:Author
@@ -52,15 +75,16 @@ contributor:
   - dcite:Author
   - dcite:Maintainer
   schemaKey: Person
-- affiliation: []
-  email: armand.collin@polymtl.ca
-  identifier: 0009-0005-3258-122X
-  includeInCitation: true
-  name: Collin, Armand
+- includeInCitation: true
+  name: Foias, Alexandru
   roleName:
   - dcite:DataCurator
-  - dcite:Author
-  - dcite:Maintainer
+  schemaKey: Person
+- identifier: 0000-0002-7726-4456
+  includeInCitation: true
+  name: Boudreau, Mathieu
+  roleName:
+  - dcite:DataCurator
   schemaKey: Person
 - email: jcohen@polymtl.ca
   identifier: 0000-0003-3662-9532
@@ -70,6 +94,23 @@ contributor:
   - dcite:Author
   - dcite:DataManager
   - dcite:Supervision
+  - dcite:ContactPerson
+  schemaKey: Person
+- name: Antonsanti, Pierre-Louis
+  roleName:
+  - dcite:Software
+  schemaKey: Person
+- name: Herman, Victor
+  roleName:
+  - dcite:Software
+  schemaKey: Person
+- name: Perone, Christian
+  roleName:
+  - dcite:Software
+  schemaKey: Person
+- name: Wabartha, Maxime
+  roleName:
+  - dcite:Software
   schemaKey: Person
 dateCreated: '2025-05-09T18:20:39.844171+00:00'
 description: "SEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)\n\n
