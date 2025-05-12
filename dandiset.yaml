@@ -113,6 +113,7 @@ contributor:
   - dcite:Software
   schemaKey: Person
 dateCreated: '2025-05-09T18:20:39.844171+00:00'
+datePublished: '2025-05-12T16:26:19.527099+00:00'
 description: "SEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)\n\n
   - 10 rat spinal cord samples (cervical level) with axon and myelin manual segmentation
   labels. \n\n- Isotropic pixel size resolution ranging from 0.05 to 0.18 um\n\n-
@@ -129,6 +130,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001442/versions/draft/assets/
 name: SEM Images of Rat Spinal Cord with Axon and Myelin Segmentations
+publishedBy:
+  endDate: '2025-05-12T16:26:19.527099+00:00'
+  id: urn:uuid:b3a32731-092d-4676-878d-10a480132e97
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-05-12T16:26:19.527099+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:547591db-913e-4a25-bad8-8a770d505c08
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
