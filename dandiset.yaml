@@ -24,7 +24,7 @@ assetsSummary:
 citation: Saliani, Ariane; Duval, Tanguy; Nami, Harris; Husein, Nafisa; Collin, Armand;
   Zaimi, Aldo; Bourget, Marie-Hélène; Foias, Alexandru; Boudreau, Mathieu; Cohen-Adad,
   Julien (2025) SEM Images of Rat Spinal Cord with Axon and Myelin Segmentations (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001442/draft
+  0.250512.1626) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001442/0.250512.1626
 contributor:
 - identifier: 0000-0002-5369-3264
   includeInCitation: true
@@ -122,13 +122,14 @@ description: "SEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)\
   2017. The images represent small cropped sections extracted from larger mosaic images.\n
   \nExample dataset containing scanning electron microscopy (SEM) data to illustrate
   BIDS convention.\n"
+doi: 10.48324/dandi.001442/0.250512.1626
 ethicsApproval: []
-id: DANDI:001442/draft
+id: DANDI:001442/0.250512.1626
 identifier: DANDI:001442
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001442/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001442/0.250512.1626/assets.yaml
 name: SEM Images of Rat Spinal Cord with Axon and Myelin Segmentations
 publishedBy:
   endDate: '2025-05-12T16:26:19.527099+00:00'
@@ -146,6 +147,6 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
-url: https://dandiarchive.org/dandiset/001442/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001442/0.250512.1626
+version: 0.250512.1626
 wasGeneratedBy: []
